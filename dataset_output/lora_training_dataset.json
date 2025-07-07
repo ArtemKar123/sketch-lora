@@ -1,0 +1,152 @@
+[
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x15y12', 'x61y12', 'x61y12', 'x61y21', 'x61y21', 'x15y21', 'x15y21', 'x15y12'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a line to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x15y12', 'x61y12', 'x61y12', 'x61y21', 'x61y21', 'x15y21', 'x15y21', 'x15y12'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x41y22', 'x37y54'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>line</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x24y46', 'x44y39', 'x44y39', 'x62y46', 'x62y46', 'x44y52', 'x44y52', 'x24y46'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a curved stroke to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x24y46', 'x44y39', 'x44y39', 'x62y46', 'x62y46', 'x44y52', 'x44y52', 'x24y46'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x43y52', 'x34y55', 'x16y59', 'x10y75', 'x13y86'</points>\n        <t_values>0.00,0.15,0.50,0.85,1.00</t_values>\n        <id>curve</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x11y17', 'x46y17', 'x46y17', 'x46y52', 'x46y52', 'x11y52', 'x11y52', 'x11y17'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a rectangle to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x11y17', 'x46y17', 'x46y17', 'x46y52', 'x46y52', 'x11y52', 'x11y52', 'x11y17'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x25y55', 'x33y55', 'x33y55', 'x33y89', 'x33y89', 'x25y89', 'x25y89', 'x25y55'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x43y54', 'x48y47', 'x48y47', 'x52y54', 'x52y54', 'x48y61', 'x48y61', 'x43y54'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a triangle to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x43y54', 'x48y47', 'x48y47', 'x52y54', 'x52y54', 'x48y61', 'x48y61', 'x43y54'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x47y61', 'x65y70', 'x38y61', 'x47y61'</points>\n        <t_values>0.00,0.33,0.67,1.00</t_values>\n        <id>triangle</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x6y40', 'x29y40', 'x29y40', 'x29y62', 'x29y62', 'x6y62', 'x6y62', 'x6y40'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a circle to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x6y40', 'x29y40', 'x29y40', 'x29y62', 'x29y62', 'x6y62', 'x6y62', 'x6y40'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x53y79', 'x46y90', 'x29y94', 'x12y90', 'x5y79', 'x12y68', 'x29y64', 'x46y68', 'x53y79'</points>\n        <t_values>0.00,0.12,0.25,0.38,0.50,0.62,0.75,0.88,1.00</t_values>\n        <id>circle</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x38y22', 'x48y22', 'x48y22', 'x48y32', 'x48y32', 'x38y32', 'x38y32', 'x38y22'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a arc to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x38y22', 'x48y22', 'x48y22', 'x48y32', 'x48y32', 'x38y32', 'x38y32', 'x38y22'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x33y31', 'x41y42', 'x49y45', 'x57y31'</points>\n        <t_values>0.00,0.33,0.67,1.00</t_values>\n        <id>arc</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x23y37', 'x40y37', 'x40y37', 'x40y54', 'x40y54', 'x23y54', 'x23y54', 'x23y37'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a ellipse to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x23y37', 'x40y37', 'x40y37', 'x40y54', 'x40y54', 'x23y54', 'x23y54', 'x23y37'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x73y69', 'x63y80', 'x39y85', 'x15y80', 'x5y69', 'x15y58', 'x39y53', 'x63y58', 'x73y69'</points>\n        <t_values>0.00,0.12,0.25,0.38,0.50,0.62,0.75,0.88,1.00</t_values>\n        <id>ellipse</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x4y23', 'x20y23', 'x20y23', 'x20y40', 'x20y40', 'x4y40', 'x4y40', 'x4y23'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a rhombus to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x4y23', 'x20y23', 'x20y23', 'x20y40', 'x20y40', 'x4y40', 'x4y40', 'x4y23'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x23y67', 'x33y40', 'x33y40', 'x42y67', 'x42y67', 'x33y93', 'x33y93', 'x23y67'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rhombus</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x10y15', 'x16y12', 'x16y12', 'x21y15', 'x21y15', 'x16y16', 'x16y16', 'x10y15'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a square to the top of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x10y15', 'x16y12', 'x16y12', 'x21y15', 'x21y15', 'x16y16', 'x16y16', 'x10y15'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x16y16', 'x59y16', 'x59y16', 'x59y59', 'x59y59', 'x16y59', 'x16y59', 'x16y16'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>square</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Given an incomplete sketch:\n<strokes>\n    <s1>\n        <points>'x19y28', 'x47y28', 'x47y28', 'x47y56', 'x47y56', 'x19y56', 'x19y56', 'x19y28'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n</strokes>\nAdd a line to the top-right of the rectangle base.",
+    "answer": "<strokes>\n    <s1>\n        <points>'x19y28', 'x47y28', 'x47y28', 'x47y56', 'x47y56', 'x19y56', 'x19y56', 'x19y28'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle base</id>\n    </s1>\n    <s2>\n        <points>'x47y56', 'x86y89'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>line</id>\n    </s2>\n</strokes>",
+    "shape_type": "spatial_relations",
+    "category": null
+  },
+  {
+    "prompt": "Sketch an arc connecting (61, 41) to (61, 58)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x61y41', 'x50y47', 'x53y53', 'x61y58'</points>\n        <t_values>0.00,0.33,0.67,1.00</t_values>\n        <id>curve</id>\n    </s1>\n</strokes>",
+    "shape_type": "arc_shape",
+    "category": "curve"
+  },
+  {
+    "prompt": "Sketch a curved stroke from (75, 21) to (15, 29)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x75y21', 'x42y10', 'x15y29'</points>\n        <t_values>0.00,0.50,1.00</t_values>\n        <id>curve</id>\n    </s1>\n</strokes>",
+    "shape_type": "curve",
+    "category": "curve"
+  },
+  {
+    "prompt": "Draw a square with corners at (66, 25), (92, 73), (44, 97), (18, 51)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x66y25', 'x92y73', 'x92y73', 'x44y97', 'x44y97', 'x18y51', 'x18y51', 'x66y25'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>square</id>\n    </s1>\n</strokes>",
+    "shape_type": "square",
+    "category": "rectangular"
+  },
+  {
+    "prompt": "Draw a rectangle with corners at (71, 31), (89, 31), (89, 40), (71, 40)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x71y31', 'x89y31', 'x89y31', 'x89y40', 'x89y40', 'x71y40', 'x71y40', 'x71y31'</points>\n        <t_values>0.00,0.25,0.25,0.50,0.50,0.75,0.75,1.00</t_values>\n        <id>rectangle</id>\n    </s1>\n</strokes>",
+    "shape_type": "rectangle",
+    "category": "rectangular"
+  },
+  {
+    "prompt": "Sketch a diamond shape connecting (27, 45), (44, 17), (60, 45), (44, 72)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x27y45', 'x44y17', 'x44y17', 'x60y45', 'x60y45', 'x44y72', 'x44y72', 'x27y45'</points>\n        <t_values>0.00,0.23,0.27,0.50,0.50,0.73,0.77,1.00</t_values>\n        <id>rhombus</id>\n    </s1>\n</strokes>",
+    "shape_type": "rhombus",
+    "category": "rectangular"
+  },
+  {
+    "prompt": "Sketch an equal-sided triangle with vertices at (53, 49), (7, 49), (30, 89)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x7y49', 'x30y89', 'x30y89', 'x53y49'</points>\n        <t_values>0.00,0.50,0.50,1.00</t_values>\n        <id>equilateral</id>\n    </s1>\n    <s2>\n        <points>'x53y49', 'x7y49'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>equilateral</id>\n    </s2>\n</strokes>",
+    "shape_type": "equilateral",
+    "category": "triangular"
+  },
+  {
+    "prompt": "Sketch a triangle with two equal sides at (36, 81), (10, 41), (62, 41)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x10y41', 'x36y81', 'x36y81', 'x62y41'</points>\n        <t_values>0.00,0.50,0.50,1.00</t_values>\n        <id>isosceles</id>\n    </s1>\n    <s2>\n        <points>'x62y41', 'x10y41'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>isosceles</id>\n    </s2>\n</strokes>",
+    "shape_type": "isosceles",
+    "category": "triangular"
+  },
+  {
+    "prompt": "Draw a right triangle with a 90-degree angle connecting (39, 74), (85, 74), (39, 86)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x85y74', 'x39y74', 'x39y74', 'x39y86'</points>\n        <t_values>0.00,0.50,0.50,1.00</t_values>\n        <id>right</id>\n    </s1>\n    <s2>\n        <points>'x39y86', 'x85y74'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>right</id>\n    </s2>\n</strokes>",
+    "shape_type": "right",
+    "category": "triangular"
+  },
+  {
+    "prompt": "Sketch an irregular triangle at (42, 89), (83, 45), (58, 18)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x42y89', 'x58y18', 'x58y18', 'x83y45'</points>\n        <t_values>0.00,0.50,0.50,1.00</t_values>\n        <id>scalene</id>\n    </s1>\n    <s2>\n        <points>'x83y45', 'x42y89'</points>\n        <t_values>0.00,1.00</t_values>\n        <id>scalene</id>\n    </s2>\n</strokes>",
+    "shape_type": "scalene",
+    "category": "triangular"
+  },
+  {
+    "prompt": "Draw a perfect circle with center at (53, 51) and radius 39",
+    "answer": "<strokes>\n    <s1>\n        <points>'x92y51', 'x81y79', 'x53y90', 'x25y79', 'x14y51', 'x25y23', 'x53y12', 'x81y23', 'x92y51'</points>\n        <t_values>0.00,0.12,0.25,0.38,0.50,0.62,0.75,0.88,1.00</t_values>\n        <id>circle</id>\n    </s1>\n</strokes>",
+    "shape_type": "circle",
+    "category": "circular"
+  },
+  {
+    "prompt": "Sketch an oval shape starting at (85, 77)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x85y77', 'x79y87', 'x63y91', 'x47y87', 'x41y77', 'x47y67', 'x63y63', 'x79y67', 'x85y77'</points>\n        <t_values>0.00,0.12,0.25,0.38,0.50,0.62,0.75,0.88,1.00</t_values>\n        <id>ellipse</id>\n    </s1>\n</strokes>",
+    "shape_type": "ellipse",
+    "category": "circular"
+  },
+  {
+    "prompt": "Sketch a pointed V-shape from (37, 76) to (88, 70)",
+    "answer": "<strokes>\n    <s1>\n        <points>'x37y76', 'x55y16', 'x55y16', 'x88y70'</points>\n        <t_values>0.00,0.50,0.47,1.00</t_values>\n        <id>v_shape</id>\n    </s1>\n</strokes>",
+    "shape_type": "v_shape",
+    "category": "angular"
+  },
+  {
+    "prompt": "Draw an L-shape from (71, 81) to (33, 34) with a sharp corner",
+    "answer": "<strokes>\n    <s1>\n        <points>'x71y81', 'x71y34', 'x71y34', 'x33y34'</points>\n        <t_values>0.00,0.51,0.44,1.00</t_values>\n        <id>l_shape</id>\n    </s1>\n</strokes>",
+    "shape_type": "l_shape",
+    "category": "angular"
+  },
+  {
+    "prompt": "Draw a zigzag pattern from (10, 57) to (90, 54) with sharp peaks",
+    "answer": "<strokes>\n    <s1>\n        <points>'x10y57', 'x30y86', 'x30y86', 'x50y14', 'x50y14', 'x70y80', 'x70y80', 'x90y54'</points>\n        <t_values>0.00,0.16,0.24,0.47,0.55,0.73,0.81,1.00</t_values>\n        <id>zigzag</id>\n    </s1>\n</strokes>",
+    "shape_type": "zigzag",
+    "category": "angular"
+  },
+  {
+    "prompt": "Draw a step pattern from (10, 90) to (50, 50) like stairs",
+    "answer": "<strokes>\n    <s1>\n        <points>'x10y90', 'x30y90', 'x30y90', 'x30y70', 'x30y70', 'x50y70', 'x50y70', 'x50y50', 'x50y50'</points>\n        <t_values>0.00,0.14,0.23,0.40,0.48,0.64,0.73,0.89,1.00</t_values>\n        <id>step</id>\n    </s1>\n</strokes>",
+    "shape_type": "step",
+    "category": "angular"
+  }
+]
