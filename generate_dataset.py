@@ -27,8 +27,8 @@ import SketchAgent.utils as utils
 import ast
 
 # Configuration
-N_SAMPLES = 1 # 200
-SPATIAL_RELATIONS_REPEATS = 1 # 10
+N_SAMPLES = 200
+SPATIAL_RELATIONS_REPEATS = 10
 GRID_SIZE = 100
 CELL_SIZE = 6
 OUTPUT_DIR = Path("dataset_output")
@@ -178,12 +178,8 @@ def generate_spatial_relations(generator, prompt_gen, n_samples):
         )
     )
     
-    counter = 0
     for j in tqdm(range(SPATIAL_RELATIONS_REPEATS), desc="Generating spatial relations"):
-        for i, (base_shape_type, direction, stroke_type) in tqdm(enumerate(configs), total=len(configs), desc="Spatial relations step"):
-            counter += 1
-            if counter > 10:
-                return samples
+        for i, (base_shape_type, direction, stroke_type) in tqdm(enumerate(configs), total=len(configs), desc="Spatial relations step"):            
             # Generate sample
             sample_data = generator.generate_sample(
                 base_shape_type=base_shape_type,
